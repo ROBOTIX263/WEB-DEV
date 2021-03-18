@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #394852;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#gen-btn{
+    position: relative;
+    transform: translateY(50%);
+    align-items: center;
+    width: 20rem;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #394852;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#gen-btn:hover{
+    transition: 0.5s ease-in;
+    background-color: crimson;
+    color: white;
+}
+
+.test-container{
+    position: relative;
+    top: 250px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.passTest{
+    color: crimson;
+    width: auto;
+    transition: 0.8s ease-out;
+}
