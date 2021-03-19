@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0a500;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    color: #eeee;
+    font-weight: 800;
+    flex-direction: column;
+}
+
+.timer-container{
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+    color: #f0a500;
+    font-size: 35px;
+    width: 990px;
+    height: 100px;
+    padding: 10px;
+    word-spacing: 300000px;
+    justify-content: space-between;
+}
+
+.days-container, .hour-container, .minutes-container, .seconds-container{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #252525;
+}
+
+h1{
+    position: absolute;
+    top: 60px;
+    font-size: 70px;
+    text-align: center;
+}
