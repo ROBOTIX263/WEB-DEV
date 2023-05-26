@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: rgb(213,207,22);
+    background: linear-gradient(80deg, #d5cf16 0%, #fd1d66 66%);
+    font-family: 'Rubik', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    border: none;
+    align-items: center;
+    height: 450px;
+}
+
+.close-icon{
+    margin-left: auto;
+    font-size: 27px;
+    cursor: pointer;
+}
+
+.special-offer-img{
+    width: 230px;
+    height: 230px;
+}
+
+.popUp-header{
+    margin-top: 20px;
+}
+
+.popUp-paragraph{
+    margin-top: 20px;
+}
+
+.btn-connector{
+    text-decoration: none;
+    color: #fd1d66;
+    font-weight: 600;
+}
+
+.coupon-btn{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fd1d66;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}

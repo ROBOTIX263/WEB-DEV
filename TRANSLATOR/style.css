@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #0591E3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 50px;
+    width: 800px;
+    border-bottom: 3px solid #fff;
+}
+
+#text-input{
+    font-size: 25px;
+    height: 45px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+#text-input::placeholder{
+    color: #fff;
+}
+
+.mic-icon{
+    color: #fff;
+    font-size: 50px;
+}
+
+.language-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.from-lang{
+    margin-right: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.right-arrow{
+    font-size: 15px;
+    color: #fff;
+    cursor: none;
+}
+
+.to-lang{
+    margin-left: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.results-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+.research-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.research-wrapper>h3{
+    font-size: 27px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.research-wrapper>p{
+    font-size: 17px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.saved-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.saved-wrapper>h3{
+    font-size: 27px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.saved-wrapper>p{
+    font-size: 17px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.rechecks-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.rechecks-wrapper>h3{
+    font-size: 27px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.rechecks-wrapper>p{
+    font-size: 17x;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Zoom</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--SIDEBAR-->
+        <aside class="sidebar">
+            <ul class="icon-container">
+                <li class="icons"><ion-icon name="home-outline" class="home"></ion-icon></li>
+                <li class="icons"><ion-icon name="chatbox-ellipses-outline" class="chatbox"></ion-icon></li>
+                <li class="icons"><ion-icon name="image-outline" class="background"></ion-icon></li>
+                <li class="icons"><ion-icon name="bulb-outline" class="bulb"></ion-icon></li>
+                <li class="icons"><ion-icon name="calendar-outline" class="calendar"></ion-icon></li>
+                <li class="icons"><ion-icon name="notifications-outline" class="notify"></ion-icon></li>
+            </ul>
+            <ul class="icon-container-second">
+                <li class="icons"><ion-icon name="settings-outline" class="settings"></ion-icon></li>
+            </ul>
+        </aside>
+        
+        <!--MIDDLE SECTION-->
+        <section class="middle-container">
+            <div class="meeting-header-wrapper">
+                <h2 class="meeting-header">Zoom Meeting</h2>
+            </div>
+
+            <div class="camera-container">
+                <div class="main-user-camera-wrapper">
+                    <div class="main-camera"></div>
+                </div>
+
+                <div class="sub-camera-wrapper">
+                    <div class="user1 spacing"></div>
+                    <div class="user1 spacing"></div>
+                    <div class="user1 spacing"></div>
+                </div>
+            </div>
+
+            <div class="controls-section">
+                    <button class="mic-control left-side">
+                        <ion-icon name="mic-outline" class="mic control-icons"></ion-icon>
+                        <ion-icon name="chevron-down-outline" class="drop"></ion-icon>
+                    </button>
+
+                    <button class="rec-control left-side">
+                        <ion-icon name="videocam-outline" class="video-cam control-icons"></ion-icon>
+                        <ion-icon name="chevron-down-outline" class="drop"></ion-icon>
+                    </button>
+
+                    <button class="participants-control left-side">
+                        <ion-icon name="person-outline" class="participants control-icons"></ion-icon>
+                        <ion-icon name="chevron-down-outline" class="drop"></ion-icon>
+                    </button>
+
+                    <button class="end-meeting-control center">End Meeting</button>
+
+                    <button class="quality-control right-side">
+                        <ion-icon name="tablet-landscape-outline" class="quality control-icons"></ion-icon>
+                        <ion-icon name="chevron-down-outline" class="drop"></ion-icon>
+                    </button>
+
+                    <button class="radio-control right-side">
+                        <ion-icon name="radio-button-on-outline" class="radio control-icons"></ion-icon>
+                        <ion-icon name="chevron-down-outline" class="drop"></ion-icon>
+                    </button>
+
+                    <button class="chat-control right-side">
+                        <ion-icon name="chatbox-ellipses-outline" class="chat control-icons"></ion-icon>
+                        <ion-icon name="chevron-down-outline" class="drop"></ion-icon>
+                    </button>
+            </div>
+        </section>
+
+        <!--CHAT-SECTION-->
+        <section class="chat-section">
+            <div class="search-container">
+                <div class="search-wrapper">
+                    <ion-icon name="search" class="search-icon"></ion-icon>
+                    <input type="text" name="text" id="search-input" placeholder="Search by keywords">
+                </div>
+                <img src="images/img.jpg" alt="user profile image" class="user-img">
+            </div>
+
+            <!--CHAT BUTTON SECTION-->
+            <div class="chat-button-container">
+                <div class="chat-btn-wrapper">
+                    <button class="participants-tab">Participant(5)</button>
+                    <button class="viewers-tab">Viewers(4)</button>
+                </div>
+            </div>
+
+            <!--CONTACT-SECTION-->
+            <div class="contact-section">
+                <div class="contact1">
+                    <img src="images/img.jpg" alt="" class="contact-profile-image">
+                    <p class="contact-name">Laura Williams</p>
+                    <div class="icon-contact-wrapper">
+                        <ion-icon name="mic" class="contact-mic"></ion-icon>
+                        <ion-icon name="videocam-outline" class="contact-videocam"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="contact2">
+                    <img src="images/img.jpg" alt="" class="contact-profile-image">
+                    <p class="contact-name">Laura Williams</p>
+                    <div class="icon-contact-wrapper">
+                        <ion-icon name="mic" class="contact-mic"></ion-icon>
+                        <ion-icon name="videocam-outline" class="contact-videocam"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="contact2">
+                    <img src="images/img.jpg" alt="" class="contact-profile-image">
+                    <p class="contact-name">Laura Williams</p>
+                    <div class="icon-contact-wrapper">
+                        <ion-icon name="mic" class="contact-mic"></ion-icon>
+                        <ion-icon name="videocam-outline" class="contact-videocam"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="contact2">
+                    <img src="images/img.jpg" alt="" class="contact-profile-image">
+                    <p class="contact-name">Laura Williams</p>
+                    <div class="icon-contact-wrapper">
+                        <ion-icon name="mic" class="contact-mic"></ion-icon>
+                        <ion-icon name="videocam-outline" class="contact-videocam"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chat-room">
+                <h2>Chat room not available</h2>
+            </div>
+        </section>
+
+
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
