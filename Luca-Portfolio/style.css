@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #f2f2f2;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+.header{
+    height: 100vh;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay{
+    position: absolute;
+    height: 100vh;
+    width: 100VW;
+    opacity: 60%;
+    background-color: #333;
+}
+
+.overlay-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 10px 30px;
+
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar>h1{
+    color: #fff;
+    z-index: 2;
+    opacity: 100%;
+}
+
+.navbtn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    margin-left: auto;
+    z-index: 2;
+}
+
+.nav-icon{
+    opacity: 100%;
+    font-size: 40px;
+    color: #fff;
+}
+
+.wrapper{
+    margin: auto;
+    z-index: 2;
+}
+
+.hello-container{
+    text-align: center;
+    border: 3px solid #00FFCA;
+    padding: 10px;
+}
+
+.hello-container>h1{
+    font-size: 80px;
+    color: #fff;
+    font-size: 100;
+}
+
+.strong{
+    font-weight: 800;
+}
+
+.paragraph-wrapper{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+}
+
+.paragraph-wrapper>p:nth-child(2){
+    line-height: 50px;
+}
+
+.scroll-btn{
+    border: 3px solid #fff;
+    background-color: transparent;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    z-index: 1;
+    margin: 0 auto 70px auto;
+    cursor: pointer;
+}
+
+.scroll-icon{
+    font-size: 25px;
+    color: white;
+}
+
+/*---ABOUT-ME-STYLES---*/
+.about-section{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    padding: 10px 80px;
+    background-color: #f2f2f2;
+}
+
+.about-me-heading-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.green-line{
+    width: 3px;
+    height: 50px;
+    background-color: #00FFCA;
+}
+
+.about-me-heading-wrapper>h2{
+    font-size: 30px;
+    margin-left: 10px;
+    color: #333;
+}
+
+.about-me-paragraph-wrapper>p{
+    line-height: 45px;
+}
+
+.about-me-paragraph-wrapper>p:nth-child(2){
+    margin-top: 20px;
+}
+
+.download-cv{
+    background-color: #333;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.my-image{
+    margin-left: auto;
+    border: 8px solid #333;
+    height: 380px;
+    width: 380px;
+}
+
+.services-section{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    background-color: #333;
+    color: #fff;
+    padding: 50px 80px;
+    align-items: center;
+}
+
+.brand-design-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.services-section-icon{
+    font-size: 50px;
+}
+
+.brand-design-container>p{
+    margin-top: 10px;
+    line-height: 30px;
+    font-weight: 200;
+}
+
+.web-design-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.web-design-container>p{
+    margin-top: 10px;
+    line-height: 30px;
+    font-weight: 200;
+}
+
+.app-design-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.app-design-container>p{
+    margin-top: 10px;
+    line-height: 30px;
+    font-weight: 200;
+}
+
+/*---PROJECT-SECTION-STYLES---*/
+.project-section{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 80px;
+    height: 100vh;
+}
+
+.project-heading-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.project-container{
+    display: grid;
+    /*background-color: #00FFCA;*/
+    margin-top: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;
+    height: 100vh;
+    padding: 50px;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+}
+
+.project{
+    display: flex;
+    height: 900px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: #333;
+    background-image: url(images/Ecommerce\ Template.jfif);
+    box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.16);
+    -webkit-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.16);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.preview-project-btn{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #333;
+    border: none;
+    margin: auto auto auto;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #f2f2f2;
+}
+
+.project>.preview-project-btn:hover{
+    display: block;
+}
+
+/*---Contact Setion---*/
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    background-color: #333;
+    padding: 40px 80px;
+    align-items: center;
+}
+
+.contact-section>h2{
+    font-size: 40px;
+    color: #f2f2f2;
+}
+
+.social-media-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.social-media-container>a{
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    color: #f2f2f2;
+}
+
+.social-media-container>a>ion-icon{
+    font-size: 80px;
+}
+
+.icon-spacing{
+    margin-left: 30px;
+}
+
+/*---SOCIAL-LINKS---*/
+.linkedin:hover{
+    transition: all 0.9s ease-in;
+    color: #0e76a8;
+}
+
+.whatsapp:hover{
+    transition: all 0.9s ease-in;
+    color: #25D366;
+}
+
+.twitter:hover{
+    transition: all 0.9s ease-in;
+    color: #1DA1F2;
+}
+
+.instagram:hover{
+    transition: all 0.9s ease-in;
+    color: #833AB4;
+}
+
+.facebook:hover{
+    transition: all 0.9s ease-in;
+    color: #4267B2;
+}
+
+.Gmail:hover{
+    transition: all 0.9s ease-in;
+    color: #DB4437;
+}

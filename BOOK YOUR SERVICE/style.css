@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Wix Madefor Text', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 490px;
+    width: 400px;
+    background-color: #F9F9F9;
+    padding: 15px 30px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px 1px rgba(211,208,208,0.75);
+    -webkit-box-shadow: 0px 0px 4px 1px rgba(211,208,208,0.75);
+    -moz-box-shadow: 0px 0px 4px 1px rgba(211,208,208,0.75);
+}
+
+.container>h2{
+    color: #bdc1c3;
+}
+
+.inputs{
+    padding: 10px;
+    margin-top: 40px;
+    border: 2px solid #c0c2c3;
+    border-radius: 3px;
+}
+.inputs::placeholder{
+    font-weight: 600;
+    color: #bdc1c3;
+}
+
+
+.booking-btn{
+    margin-top: 40px;
+    padding: 15px;
+    color: #FFF;
+    background-color: #46ce90;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+}

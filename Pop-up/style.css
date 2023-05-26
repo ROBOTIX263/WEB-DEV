@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    font-family: 'Secular One', sans-serif;
+    background: rgb(123,184,241);
+    background: linear-gradient(153deg, rgba(123,184,241,1) 0%, rgba(83,114,230,1) 55%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 700px;
+    padding: 60px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.container:hover{
+    transition: all ease-in-out 0.5s;
+    box-shadow: 12px 14px 2px 0px #486ad0;
+}
+
+.close-icon{
+    margin-left: auto;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.flame-icon{
+    font-size: 70px;
+    color: #e25822;
+}
+
+.wrapper>h2:nth-child(even){
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.wrapper>h2:nth-child(odd){
+    font-size: 35px;
+}
+
+.wrapper>p{
+    font-size: 17px;
+    margin-top: 5px;
+    width: 350px;
+}
+
+.inputs-wrapper{
+    display: flex;
+    flex-direction: row;
+    /*border: 2px solid #333;*/
+    margin-top: 20px;
+    width: 400px;
+    height: 50px;
+    border-radius: 2px;
+}
+
+.your-email{
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius: 2px 0 0 2px;
+    width: 260px;
+    border: 2px solid #f2f2f2;
+    font-weight: 600;
+    color: #acacac;
+}
+
+.submit-btn{
+    width: 140px;
+    border-radius: 0px 2px 2px 0px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #597ee8;
+    color: #fff;
+}

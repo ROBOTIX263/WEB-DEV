@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #1e205b;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(images/side-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px;
+    align-items: center;
+}
+
+.link-wrapper{
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.link-wrapper>a{
+    text-decoration: none;
+    color: #1e205b;
+    font-weight: 800;
+    padding: 0px 30px;
+    color: #F1F6F9;
+}
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    margin: auto auto auto 30px
+}
+
+.hero-info>h1{
+    font-size: 60px;
+}
+
+.hero-info>h2{
+    font-size: 50px;
+}
+
+.hero-info>h3{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.hero-info>p{
+    margin-top: 10px;
+    font-size: 20px;
+    width: 620px;
+}
+
+.youremail{
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff/*#F1F6F9*/;
+    font-size: 17px;
+    outline: none;
+    margin-top: 10px;
+}
+
+.join-btn{
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #8BFECB, #9AFAC0);
+    margin-left: 20px;
+}
